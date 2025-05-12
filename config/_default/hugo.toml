@@ -1,0 +1,79 @@
+# -- Site Configuration --
+
+theme = "blowfish"
+title = "Tech and Lifestyle Blog"
+defaultContentLanguage = "en"
+
+# config/_default/languages.en.toml
+
+[params.author]
+bio = "Experienced Python developer with 6+ years of expertise in Django, Flask, and FastAPI, specializing in high-performance web applications. Skilled in Node.js/TypeScript (Express), Docker, CI/CD, and TDD with 95% test coverage. Proven track record across ERP, CRM, e-commerce, blockchain, and AI projects. Focused on continuous growth and delivering impactful, scalable solutions."
+headline = "Software Engineer"
+image = "/images/static/formal-photo.JPG"
+links = [
+  {facebook = "https://www.facebook.com/share/1AbxYZPMJD/?mibextid=wwXIfr"},
+  {linkedin = "https://www.linkedin.com/in/yalchinmammadli"},
+]
+name = "Yalchin Mammadli"
+
+# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+
+enableRobotsTXT = true
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+
+enableEmoji = true
+
+# googleAnalytics = "G-XXXXXXXXX"
+
+[pagination]
+pagerSize = 100
+
+[imaging]
+anchor = 'Center'
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[sitemap]
+changefreq = 'daily'
+filename = 'sitemap.xml'
+priority = 0.5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[related]
+threshold = 0
+toLower = false
+
+[[related.indices]]
+name = "tags"
+weight = 100
+
+[[related.indices]]
+name = "categories"
+weight = 100
+
+[[related.indices]]
+name = "series"
+weight = 50
+
+[[related.indices]]
+name = "authors"
+weight = 20
+
+[[related.indices]]
+name = "date"
+weight = 10
+
+[[related.indices]]
+applyFilter = false
+name = 'fragmentrefs'
+type = 'fragments'
+weight = 10
