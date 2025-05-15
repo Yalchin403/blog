@@ -1,8 +1,8 @@
 # -- Site Configuration --
 
+defaultContentLanguage = "en"
 theme = "blowfish"
 title = "Tech and Lifestyle Blog"
-defaultContentLanguage = "en"
 # config/_default/languages.en.toml
 
 [params.author]
@@ -17,18 +17,18 @@ name = "Yalchin Mammadli"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
-enableRobotsTXT = true
-summaryLength = 0
-
 buildDrafts = false
 buildFuture = false
+enableRobotsTXT = true
+showViews = true
+summaryLength = 0
 
 enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
-pagerSize = 100
+pagerSize = 5
 
 [imaging]
 anchor = 'Center'
@@ -76,3 +76,8 @@ applyFilter = false
 name = 'fragmentrefs'
 type = 'fragments'
 weight = 10
+
+[list]
+cardView = true
+showViews = true
+showCards = true

@@ -4,9 +4,9 @@ draft = false
 title = 'How to Deploy Nodejs App'
 +++
 
-![Banner](/images/blog/deploy-node-js-app.png)
+![Banner](/images/blog/how-to-deploy-nodejs-app/banner.png)
 
-In this tutorial, we will be deploying a simple URL shortener API built-in express framework of NodeJs. It is pretty simple, uses MongoDB as its database, and you can find its source code: https://shrt-url.ml/Cq93RQ.
+In this tutorial, we will be deploying a simple URL shortener API built-in express framework of NodeJs. It is pretty simple, uses MongoDB as its database, and you can find its source code [here](https://github.com/Yalchin403/express-urlshortener-api).
 
 As a VPS, I use a Linode ubuntu server, and I assume that you have at least some basic knowledge when it comes to Linux.
 

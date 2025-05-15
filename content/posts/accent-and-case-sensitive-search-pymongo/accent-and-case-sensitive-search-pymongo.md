@@ -5,7 +5,7 @@ title = 'Accent and Case Insensitive Search and Minimum Distance Calculator in P
 +++
 
 
-![Banner](/images/blog/accent-and-case-sensitive.png)
+![Banner](/images/blog/accent-and-case-sensitive-search-pymongo/banner.png)
 Ellaborate case
 ===============
 

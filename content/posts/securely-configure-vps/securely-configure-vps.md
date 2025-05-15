@@ -4,7 +4,7 @@ draft = false
 title = 'Securely Configure Vps'
 +++
 
-![Banner](/images/blog/secure-vps.png)
+![Banner](/images/blog/securely-configure-vps/banner.png)
 
 For your information, this tutorial is not written by me absolutely, I've used ssh connection part of [this](https://notthebe.ee/Creating-your-own-OpenVPN-server.html) tutorial and added some comments to make individual tutorial on "how to create your own vpn" and also covers the things that we can implement to make our vps the way more secure.
 

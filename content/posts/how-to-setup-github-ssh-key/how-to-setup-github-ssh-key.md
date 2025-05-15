@@ -3,7 +3,7 @@ date = '2025-05-15T12:27:47+02:00'
 draft = false
 title = 'How to Setup Github Ssh Key'
 +++
-![Banner](/images/blog/how-to-setup-github-ssh-key.png)
+![Banner](/images/blog/how-to-setup-github-ssh-key/banner.png)
 
 **Github SSH Key set up**
 
@@ -77,10 +77,10 @@ ssh-add ~/.ssh/nameOfYourPrivateKey
 
 You should be good to go now :)
 
-Test your ssh connection by:![](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==)
+Test your ssh connection by:
 
 `ssh -T github.com`
 
 It should say you have successfully set up SSH key authentication if you have done so :)
 
-Thanks for reading!![](data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw== "Click and drag to move")
+Thanks for reading!
