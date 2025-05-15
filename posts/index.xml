@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tech and Lifestyle Blog</title><link>/posts/</link><description>Recent content in Posts on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Tue, 13 May 2025 00:53:10 +0200</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Deploy Nodejs App</title><link>/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/posts/</link><description>Recent content in Posts on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Tue, 13 May 2025 00:53:10 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/images/blog/deploy-node-js-app_hu_8e06a8f898cbd9d8.png 330w,
-/images/blog/deploy-node-js-app_hu_9ad8d3eb3c9b15c3.png 660w,
-/images/blog/deploy-node-js-app_hu_4ad1baa2a598dc34.png 1024w,
-/images/blog/deploy-node-js-app_hu_6fae53c70c0c9057.png 2x"
-data-zoom-src="/images/blog/deploy-node-js-app_hu_6fae53c70c0c9057.png"
-src="/images/blog/deploy-node-js-app_hu_9ad8d3eb3c9b15c3.png"
+/blog/images/blog/deploy-node-js-app_hu_8e06a8f898cbd9d8.png 330w,
+/blog/images/blog/deploy-node-js-app_hu_9ad8d3eb3c9b15c3.png 660w,
+/blog/images/blog/deploy-node-js-app_hu_4ad1baa2a598dc34.png 1024w,
+/blog/images/blog/deploy-node-js-app_hu_6fae53c70c0c9057.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/deploy-node-js-app_hu_6fae53c70c0c9057.png"
+src="https://yalchin403.github.io/blog/images/blog/deploy-node-js-app_hu_9ad8d3eb3c9b15c3.png"
 alt="Banner"
 />
 &lt;/figure>
@@ -39,18 +39,18 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#clone-your-repo" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h3>
-&lt;p>&lt;code>git clone [link to your github repo]&lt;/code>&lt;/p></description></item><item><title>Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo</title><link>/posts/accent-and-case-sensitive-search-pymongo/</link><pubDate>Tue, 13 May 2025 00:51:03 +0200</pubDate><guid>/posts/accent-and-case-sensitive-search-pymongo/</guid><description>&lt;h1 class="relative group">
+&lt;p>&lt;code>git clone [link to your github repo]&lt;/code>&lt;/p></description></item><item><title>Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo</title><link>https://yalchin403.github.io/blog/posts/accent-and-case-sensitive-search-pymongo/</link><pubDate>Tue, 13 May 2025 00:51:03 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/accent-and-case-sensitive-search-pymongo/</guid><description>&lt;h1 class="relative group">
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/images/blog/accent-and-case-sensitive_hu_5b3e703c6303ad4f.png 330w,
-/images/blog/accent-and-case-sensitive_hu_4d23ea6da0a7812.png 660w,
-/images/blog/accent-and-case-sensitive_hu_92ce4fadb2b1017a.png 1024w,
-/images/blog/accent-and-case-sensitive_hu_a4d59ddc7684867b.png 2x"
-data-zoom-src="/images/blog/accent-and-case-sensitive_hu_a4d59ddc7684867b.png"
-src="/images/blog/accent-and-case-sensitive_hu_4d23ea6da0a7812.png"
+/blog/images/blog/accent-and-case-sensitive_hu_5b3e703c6303ad4f.png 330w,
+/blog/images/blog/accent-and-case-sensitive_hu_4d23ea6da0a7812.png 660w,
+/blog/images/blog/accent-and-case-sensitive_hu_92ce4fadb2b1017a.png 1024w,
+/blog/images/blog/accent-and-case-sensitive_hu_a4d59ddc7684867b.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/accent-and-case-sensitive_hu_a4d59ddc7684867b.png"
+src="https://yalchin403.github.io/blog/images/blog/accent-and-case-sensitive_hu_4d23ea6da0a7812.png"
 alt="Banner"
 />
 &lt;/figure>
@@ -62,18 +62,18 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#ellaborate-case" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h1>
-&lt;p>Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as &lt;strong>pain in the ass&lt;/strong>. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don&amp;rsquo;t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely &lt;a href="https://pymongo.readthedocs.io/en/stable/" target="_blank">pymongo&lt;/a> and &lt;a href="https://docs.mongoengine.org/" target="_blank">mongoengine&lt;/a>. I was familiar with pymongo as in my &lt;a href="https://t.me/mp3converteryoutubebot" target="_blank">telegram bot&lt;/a> I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.&lt;/p></description></item><item><title>Securely Configure Vps</title><link>/posts/securely-configure-vps/</link><pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate><guid>/posts/securely-configure-vps/</guid><description>&lt;p>
+&lt;p>Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as &lt;strong>pain in the ass&lt;/strong>. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don&amp;rsquo;t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely &lt;a href="https://pymongo.readthedocs.io/en/stable/" target="_blank">pymongo&lt;/a> and &lt;a href="https://docs.mongoengine.org/" target="_blank">mongoengine&lt;/a>. I was familiar with pymongo as in my &lt;a href="https://t.me/mp3converteryoutubebot" target="_blank">telegram bot&lt;/a> I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.&lt;/p></description></item><item><title>Securely Configure Vps</title><link>https://yalchin403.github.io/blog/posts/securely-configure-vps/</link><pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/securely-configure-vps/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/images/blog/secure-vps_hu_d3db7d1741b6f0e4.png 330w,
-/images/blog/secure-vps_hu_4e18c037637ef517.png 660w,
-/images/blog/secure-vps_hu_b642014a66fadbcd.png 1024w,
-/images/blog/secure-vps_hu_48b38970492b2b69.png 2x"
-data-zoom-src="/images/blog/secure-vps_hu_48b38970492b2b69.png"
-src="/images/blog/secure-vps_hu_4e18c037637ef517.png"
+/blog/images/blog/secure-vps_hu_d3db7d1741b6f0e4.png 330w,
+/blog/images/blog/secure-vps_hu_4e18c037637ef517.png 660w,
+/blog/images/blog/secure-vps_hu_b642014a66fadbcd.png 1024w,
+/blog/images/blog/secure-vps_hu_48b38970492b2b69.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/secure-vps_hu_48b38970492b2b69.png"
+src="https://yalchin403.github.io/blog/images/blog/secure-vps_hu_4e18c037637ef517.png"
 alt="Banner"
 />
 &lt;/figure>
