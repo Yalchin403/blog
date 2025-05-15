@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/</link><description>Recent content on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Tue, 13 May 2025 00:53:10 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/</link><description>Recent content on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Thu, 15 May 2025 12:29:36 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Setup Mailgun in Django</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/</link><pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/blog/images/blog/how-to-setup-mailgun-in-django_hu_5fe3f79a736ad76d.png 330w,
+/blog/images/blog/how-to-setup-mailgun-in-django_hu_62fd16290ead991d.png 660w,
+/blog/images/blog/how-to-setup-mailgun-in-django_hu_d355ab78e3d2f15e.png 1024w,
+/blog/images/blog/how-to-setup-mailgun-in-django_hu_1412e6997ae44a2b.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-mailgun-in-django_hu_1412e6997ae44a2b.png"
+src="https://yalchin403.github.io/blog/images/blog/how-to-setup-mailgun-in-django_hu_62fd16290ead991d.png"
+alt="Banner"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;p>In this tutorial, I will try to cover configuring a custom domain for sending emails in your application. The benefit of using mailgun is that it allows you to send (5,000) emails for free during the first three months (then you will pay $0.8 per 1,000 emails) and its setup procedure is so straightforward. You will only need to add your payment verification to be able to send emails without any restrictions.&lt;/p></description></item><item><title>How to Setup Github Ssh Key</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-github-ssh-key/</link><pubDate>Thu, 15 May 2025 12:27:47 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-github-ssh-key/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/blog/images/blog/how-to-setup-github-ssh-key_hu_4ba4ad541cc9c8c3.png 330w,
+/blog/images/blog/how-to-setup-github-ssh-key_hu_7d53dee526325e32.png 660w,
+/blog/images/blog/how-to-setup-github-ssh-key_hu_e1b13e7e6cdd36b5.png 1024w,
+/blog/images/blog/how-to-setup-github-ssh-key_hu_5f570670e6ff4000.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-github-ssh-key_hu_5f570670e6ff4000.png"
+src="https://yalchin403.github.io/blog/images/blog/how-to-setup-github-ssh-key_hu_7d53dee526325e32.png"
+alt="Banner"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Github SSH Key set up&lt;/strong>&lt;/p>
+&lt;p>This tutorial will help you to be able to set up SSH key connection to your github account on a &lt;strong>Linux&lt;/strong> machine. You can also continue to read this tutorial if you want to set up &lt;strong>&lt;em>Deploy Keys&lt;/em>&lt;/strong>.&lt;/p>
+&lt;p>For now let&amp;rsquo;s just assume that &lt;strong>you&amp;rsquo;ve successfully set up SSH key&lt;/strong>, after that you need to make sure that you don&amp;rsquo;t access your repo with HTTPS, but with ssh, so if you previously cloned your repo wirh https set it to ssh as below:&lt;/p></description></item><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
