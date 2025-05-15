@@ -1,54 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/posts/</link><description>Recent content in Posts on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Thu, 15 May 2025 12:29:36 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Setup Mailgun in Django</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/</link><pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/posts/</link><description>Recent content in Posts on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Thu, 15 May 2025 12:29:36 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Setup Mailgun in Django</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</link><pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/blog/images/blog/how-to-setup-mailgun-in-django_hu_5fe3f79a736ad76d.png 330w,
-/blog/images/blog/how-to-setup-mailgun-in-django_hu_62fd16290ead991d.png 660w,
-/blog/images/blog/how-to-setup-mailgun-in-django_hu_d355ab78e3d2f15e.png 1024w,
-/blog/images/blog/how-to-setup-mailgun-in-django_hu_1412e6997ae44a2b.png 2x"
-data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-mailgun-in-django_hu_1412e6997ae44a2b.png"
-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-mailgun-in-django_hu_62fd16290ead991d.png"
+/blog/images/blog/how-to-setup-mailgun-in-django/banner_hu_5fe3f79a736ad76d.png 330w,
+/blog/images/blog/how-to-setup-mailgun-in-django/banner_hu_62fd16290ead991d.png 660w,
+/blog/images/blog/how-to-setup-mailgun-in-django/banner_hu_d355ab78e3d2f15e.png 1024w,
+/blog/images/blog/how-to-setup-mailgun-in-django/banner_hu_1412e6997ae44a2b.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-mailgun-in-django/banner_hu_1412e6997ae44a2b.png"
+src="https://yalchin403.github.io/blog/images/blog/how-to-setup-mailgun-in-django/banner_hu_62fd16290ead991d.png"
 alt="Banner"
 />
 &lt;/figure>
 &lt;/p>
-&lt;p>In this tutorial, I will try to cover configuring a custom domain for sending emails in your application. The benefit of using mailgun is that it allows you to send (5,000) emails for free during the first three months (then you will pay $0.8 per 1,000 emails) and its setup procedure is so straightforward. You will only need to add your payment verification to be able to send emails without any restrictions.&lt;/p></description></item><item><title>How to Setup Github Ssh Key</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-github-ssh-key/</link><pubDate>Thu, 15 May 2025 12:27:47 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-github-ssh-key/</guid><description>&lt;p>
+&lt;p>In this tutorial, I will try to cover configuring a custom domain for sending emails in your application. The benefit of using mailgun is that it allows you to send (5,000) emails for free during the first three months (then you will pay $0.8 per 1,000 emails) and its setup procedure is so straightforward. You will only need to add your payment verification to be able to send emails without any restrictions.&lt;/p></description></item><item><title>How to Setup Github Ssh Key</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-github-ssh-key/how-to-setup-github-ssh-key/</link><pubDate>Thu, 15 May 2025 12:27:47 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-github-ssh-key/how-to-setup-github-ssh-key/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/blog/images/blog/how-to-setup-github-ssh-key_hu_4ba4ad541cc9c8c3.png 330w,
-/blog/images/blog/how-to-setup-github-ssh-key_hu_7d53dee526325e32.png 660w,
-/blog/images/blog/how-to-setup-github-ssh-key_hu_e1b13e7e6cdd36b5.png 1024w,
-/blog/images/blog/how-to-setup-github-ssh-key_hu_5f570670e6ff4000.png 2x"
-data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-github-ssh-key_hu_5f570670e6ff4000.png"
-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-github-ssh-key_hu_7d53dee526325e32.png"
+/blog/images/blog/how-to-setup-github-ssh-key/banner_hu_4ba4ad541cc9c8c3.png 330w,
+/blog/images/blog/how-to-setup-github-ssh-key/banner_hu_7d53dee526325e32.png 660w,
+/blog/images/blog/how-to-setup-github-ssh-key/banner_hu_e1b13e7e6cdd36b5.png 1024w,
+/blog/images/blog/how-to-setup-github-ssh-key/banner_hu_5f570670e6ff4000.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-setup-github-ssh-key/banner_hu_5f570670e6ff4000.png"
+src="https://yalchin403.github.io/blog/images/blog/how-to-setup-github-ssh-key/banner_hu_7d53dee526325e32.png"
 alt="Banner"
 />
 &lt;/figure>
 &lt;/p>
 &lt;p>&lt;strong>Github SSH Key set up&lt;/strong>&lt;/p>
 &lt;p>This tutorial will help you to be able to set up SSH key connection to your github account on a &lt;strong>Linux&lt;/strong> machine. You can also continue to read this tutorial if you want to set up &lt;strong>&lt;em>Deploy Keys&lt;/em>&lt;/strong>.&lt;/p>
-&lt;p>For now let&amp;rsquo;s just assume that &lt;strong>you&amp;rsquo;ve successfully set up SSH key&lt;/strong>, after that you need to make sure that you don&amp;rsquo;t access your repo with HTTPS, but with ssh, so if you previously cloned your repo wirh https set it to ssh as below:&lt;/p></description></item><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p>
+&lt;p>For now let&amp;rsquo;s just assume that &lt;strong>you&amp;rsquo;ve successfully set up SSH key&lt;/strong>, after that you need to make sure that you don&amp;rsquo;t access your repo with HTTPS, but with ssh, so if you previously cloned your repo wirh https set it to ssh as below:&lt;/p></description></item><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/how-to-deploy-nodejs-app/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/blog/images/blog/deploy-node-js-app_hu_8e06a8f898cbd9d8.png 330w,
-/blog/images/blog/deploy-node-js-app_hu_9ad8d3eb3c9b15c3.png 660w,
-/blog/images/blog/deploy-node-js-app_hu_4ad1baa2a598dc34.png 1024w,
-/blog/images/blog/deploy-node-js-app_hu_6fae53c70c0c9057.png 2x"
-data-zoom-src="https://yalchin403.github.io/blog/images/blog/deploy-node-js-app_hu_6fae53c70c0c9057.png"
-src="https://yalchin403.github.io/blog/images/blog/deploy-node-js-app_hu_9ad8d3eb3c9b15c3.png"
+/blog/images/blog/how-to-deploy-nodejs-app/banner_hu_8e06a8f898cbd9d8.png 330w,
+/blog/images/blog/how-to-deploy-nodejs-app/banner_hu_9ad8d3eb3c9b15c3.png 660w,
+/blog/images/blog/how-to-deploy-nodejs-app/banner_hu_4ad1baa2a598dc34.png 1024w,
+/blog/images/blog/how-to-deploy-nodejs-app/banner_hu_6fae53c70c0c9057.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/how-to-deploy-nodejs-app/banner_hu_6fae53c70c0c9057.png"
+src="https://yalchin403.github.io/blog/images/blog/how-to-deploy-nodejs-app/banner_hu_9ad8d3eb3c9b15c3.png"
 alt="Banner"
 />
 &lt;/figure>
 &lt;/p>
-&lt;p>In this tutorial, we will be deploying a simple URL shortener API built-in express framework of NodeJs. It is pretty simple, uses MongoDB as its database, and you can find its source code: &lt;a href="https://shrt-url.ml/Cq93RQ" target="_blank">https://shrt-url.ml/Cq93RQ&lt;/a>.&lt;/p>
+&lt;p>In this tutorial, we will be deploying a simple URL shortener API built-in express framework of NodeJs. It is pretty simple, uses MongoDB as its database, and you can find its source code &lt;a href="https://github.com/Yalchin403/express-urlshortener-api" target="_blank">here&lt;/a>.&lt;/p>
 &lt;p>As a VPS, I use a Linode ubuntu server, and I assume that you have at least some basic knowledge when it comes to Linux.&lt;/p>
 &lt;h3 class="relative group">Install Node and NPM
 &lt;div id="install-node-and-npm" class="anchor">&lt;/div>
@@ -73,18 +73,18 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#clone-your-repo" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h3>
-&lt;p>&lt;code>git clone [link to your github repo]&lt;/code>&lt;/p></description></item><item><title>Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo</title><link>https://yalchin403.github.io/blog/posts/accent-and-case-sensitive-search-pymongo/</link><pubDate>Tue, 13 May 2025 00:51:03 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/accent-and-case-sensitive-search-pymongo/</guid><description>&lt;h1 class="relative group">
+&lt;p>&lt;code>git clone [link to your github repo]&lt;/code>&lt;/p></description></item><item><title>Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo</title><link>https://yalchin403.github.io/blog/posts/accent-and-case-sensitive-search-pymongo/accent-and-case-sensitive-search-pymongo/</link><pubDate>Tue, 13 May 2025 00:51:03 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/accent-and-case-sensitive-search-pymongo/accent-and-case-sensitive-search-pymongo/</guid><description>&lt;h1 class="relative group">
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/blog/images/blog/accent-and-case-sensitive_hu_5b3e703c6303ad4f.png 330w,
-/blog/images/blog/accent-and-case-sensitive_hu_4d23ea6da0a7812.png 660w,
-/blog/images/blog/accent-and-case-sensitive_hu_92ce4fadb2b1017a.png 1024w,
-/blog/images/blog/accent-and-case-sensitive_hu_a4d59ddc7684867b.png 2x"
-data-zoom-src="https://yalchin403.github.io/blog/images/blog/accent-and-case-sensitive_hu_a4d59ddc7684867b.png"
-src="https://yalchin403.github.io/blog/images/blog/accent-and-case-sensitive_hu_4d23ea6da0a7812.png"
+/blog/images/blog/accent-and-case-sensitive-search-pymongo/banner_hu_5b3e703c6303ad4f.png 330w,
+/blog/images/blog/accent-and-case-sensitive-search-pymongo/banner_hu_4d23ea6da0a7812.png 660w,
+/blog/images/blog/accent-and-case-sensitive-search-pymongo/banner_hu_92ce4fadb2b1017a.png 1024w,
+/blog/images/blog/accent-and-case-sensitive-search-pymongo/banner_hu_a4d59ddc7684867b.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/accent-and-case-sensitive-search-pymongo/banner_hu_a4d59ddc7684867b.png"
+src="https://yalchin403.github.io/blog/images/blog/accent-and-case-sensitive-search-pymongo/banner_hu_4d23ea6da0a7812.png"
 alt="Banner"
 />
 &lt;/figure>
@@ -96,18 +96,18 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#ellaborate-case" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h1>
-&lt;p>Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as &lt;strong>pain in the ass&lt;/strong>. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don&amp;rsquo;t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely &lt;a href="https://pymongo.readthedocs.io/en/stable/" target="_blank">pymongo&lt;/a> and &lt;a href="https://docs.mongoengine.org/" target="_blank">mongoengine&lt;/a>. I was familiar with pymongo as in my &lt;a href="https://t.me/mp3converteryoutubebot" target="_blank">telegram bot&lt;/a> I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.&lt;/p></description></item><item><title>Securely Configure Vps</title><link>https://yalchin403.github.io/blog/posts/securely-configure-vps/</link><pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/securely-configure-vps/</guid><description>&lt;p>
+&lt;p>Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as &lt;strong>pain in the ass&lt;/strong>. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don&amp;rsquo;t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely &lt;a href="https://pymongo.readthedocs.io/en/stable/" target="_blank">pymongo&lt;/a> and &lt;a href="https://docs.mongoengine.org/" target="_blank">mongoengine&lt;/a>. I was familiar with pymongo as in my &lt;a href="https://t.me/mp3converteryoutubebot" target="_blank">telegram bot&lt;/a> I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.&lt;/p></description></item><item><title>Securely Configure Vps</title><link>https://yalchin403.github.io/blog/posts/securely-configure-vps/securely-configure-vps/</link><pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/securely-configure-vps/securely-configure-vps/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
 loading="lazy"
 srcset="
-/blog/images/blog/secure-vps_hu_d3db7d1741b6f0e4.png 330w,
-/blog/images/blog/secure-vps_hu_4e18c037637ef517.png 660w,
-/blog/images/blog/secure-vps_hu_b642014a66fadbcd.png 1024w,
-/blog/images/blog/secure-vps_hu_48b38970492b2b69.png 2x"
-data-zoom-src="https://yalchin403.github.io/blog/images/blog/secure-vps_hu_48b38970492b2b69.png"
-src="https://yalchin403.github.io/blog/images/blog/secure-vps_hu_4e18c037637ef517.png"
+/blog/images/blog/securely-configure-vps/banner_hu_d3db7d1741b6f0e4.png 330w,
+/blog/images/blog/securely-configure-vps/banner_hu_4e18c037637ef517.png 660w,
+/blog/images/blog/securely-configure-vps/banner_hu_b642014a66fadbcd.png 1024w,
+/blog/images/blog/securely-configure-vps/banner_hu_48b38970492b2b69.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/securely-configure-vps/banner_hu_48b38970492b2b69.png"
+src="https://yalchin403.github.io/blog/images/blog/securely-configure-vps/banner_hu_4e18c037637ef517.png"
 alt="Banner"
 />
 &lt;/figure>
