@@ -3,7 +3,6 @@
 theme = "blowfish"
 title = "Tech and Lifestyle Blog"
 defaultContentLanguage = "en"
-
 # config/_default/languages.en.toml
 
 [params.author]
