@@ -9,7 +9,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/sorting-algorithms-and-binary-search-in-python/sorting-algorithms-and-binary-search-in-python/</loc>
+    <loc>//localhost:1313/posts/sorting-algorithms-and-binary-search-in-python/</loc>
     <lastmod>2025-05-16T21:43:57+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -21,55 +21,94 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/map-sort-filter-functions-in-python/map-sort-filter-functions-in-python/</loc>
+    <loc>//localhost:1313/posts/map-sort-filter-functions-in-python/</loc>
     <lastmod>2025-05-16T21:28:34+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/implementing-database-logs-or-history/implementing-database-logs-or-history/</loc>
+    <loc>//localhost:1313/posts/implementing-database-logs-or-history/</loc>
     <lastmod>2025-05-16T21:22:57+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/python-decorators-with-function-and-decorator-parameters/python-decorators-with-function-and-decorator-parameters/</loc>
+    <loc>//localhost:1313/posts/python-decorators-with-function-and-decorator-parameters/</loc>
     <lastmod>2025-05-16T21:17:13+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</loc>
+    <loc>//localhost:1313/posts/how-to-setup-mailgun-in-django/</loc>
     <lastmod>2025-05-15T12:29:36+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/how-to-setup-github-ssh-key/how-to-setup-github-ssh-key/</loc>
+    <loc>//localhost:1313/posts/how-to-setup-github-ssh-key/</loc>
     <lastmod>2025-05-15T12:27:47+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/how-to-deploy-nodejs-app/how-to-deploy-nodejs-app/</loc>
+    <loc>//localhost:1313/posts/how-to-deploy-nodejs-app/</loc>
     <lastmod>2025-05-13T00:53:10+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/accent-and-case-sensitive-search-pymongo/</loc>
+    <loc>//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/</loc>
     <lastmod>2025-05-13T00:51:03+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>//localhost:1313/posts/securely-configure-vps/securely-configure-vps/</loc>
+    <loc>//localhost:1313/tags/mongodb/</loc>
+    <lastmod>2025-05-13T00:51:03+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/pymongo/</loc>
+    <lastmod>2025-05-13T00:51:03+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/python/</loc>
+    <lastmod>2025-05-13T00:51:03+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-05-13T00:51:03+02:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/posts/securely-configure-vps/</loc>
     <lastmod>2025-05-13T00:20:23+02:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>//localhost:1313/resume/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>//localhost:1313/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

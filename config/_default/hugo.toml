@@ -28,10 +28,9 @@ enableEmoji = true
 # googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
-pagerSize = 5
+pagerSize = 6
 
 [imaging]
-anchor = 'Center'
 
 [taxonomies]
 author = "authors"
@@ -76,8 +75,3 @@ applyFilter = false
 name = 'fragmentrefs'
 type = 'fragments'
 weight = 10
-
-[list]
-cardView = true
-showViews = true
-showCards = true

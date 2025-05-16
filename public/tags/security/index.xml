@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Tech and Lifestyle Blog</title>
+    <link>//localhost:1313/tags/security/</link>
+    <description>Recent content in Security on Tech and Lifestyle Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2025 Yalchin Mammadli</copyright>
+    <lastBuildDate>Tue, 13 May 2025 00:20:23 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Securely Configure Vps</title>
+      <link>//localhost:1313/posts/securely-configure-vps/</link>
+      <pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/securely-configure-vps/</guid>
+      <description>&lt;p&gt;For your information, this tutorial is not written by me absolutely, I&amp;rsquo;ve used ssh connection part of &lt;a href=&#34;https://notthebe.ee/Creating-your-own-OpenVPN-server.html&#34; target=&#34;_blank&#34;&gt;this&lt;/a&gt; tutorial and added some comments to make individual tutorial on &amp;ldquo;how to create your own vpn&amp;rdquo; and also covers the things that we can implement to make our vps the way more secure.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Generating SSH keys&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Using a cleartext password to log in to your server is never a good idea since the password is not encrypted in transit and can be exposed on a hostile network. By creating an SSH key we&amp;rsquo;re going to make it so that you can only log in to the server if you have the key file and the password, and at the same time the password is encrypted. If you&amp;rsquo;re using Linux you probably already know how to open the terminal, if you&amp;rsquo;re on Mac you can find the Terminal app in your Applications folder, and on Windows 10 you&amp;rsquo;ll need to open the PowerShell with administrator&amp;rsquo;s privileges and install SSH using this command:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/securely-configure-vps/featured.png" />
+    </item>
+    
+  </channel>
+</rss>
