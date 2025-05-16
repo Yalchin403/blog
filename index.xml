@@ -1,4 +1,131 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/</link><description>Recent content on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Thu, 15 May 2025 12:29:36 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Setup Mailgun in Django</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</link><pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/</link><description>Recent content on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Fri, 16 May 2025 21:43:57 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Sorting Algorithms and Binary Search in Python</title><link>https://yalchin403.github.io/blog/posts/sorting-algorithms-and-binary-search-in-python/sorting-algorithms-and-binary-search-in-python/</link><pubDate>Fri, 16 May 2025 21:43:57 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/sorting-algorithms-and-binary-search-in-python/sorting-algorithms-and-binary-search-in-python/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/blog/images/blog/sorting-algorithms-and-binary-search-in-python/banner_hu_2dad115d2dbc6a12.png 330w,
+/blog/images/blog/sorting-algorithms-and-binary-search-in-python/banner_hu_182bfcca53d9a892.png 660w,
+/blog/images/blog/sorting-algorithms-and-binary-search-in-python/banner_hu_3bf412bf992abcd2.png 1024w,
+/blog/images/blog/sorting-algorithms-and-binary-search-in-python/banner_hu_8953ccd6f74cf491.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/sorting-algorithms-and-binary-search-in-python/banner_hu_8953ccd6f74cf491.png"
+src="https://yalchin403.github.io/blog/images/blog/sorting-algorithms-and-binary-search-in-python/banner_hu_182bfcca53d9a892.png"
+alt="Banner"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;p>![[Pasted image 20240212123914.png]]&lt;/p>
+&lt;h2 class="relative group">&lt;strong>Selection Sort&lt;/strong>
+&lt;div id="selection-sort" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#selection-sort" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>Selection sort is about selecting the minimum value in an unsorted array and moving it towards the front by comparing. Here is an example code snippet to implement binary search in Python:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-py" data-lang="py">&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">selection_sort&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">list_&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">length&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nb">len&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">list_&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="n">index&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="nb">range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">length&lt;/span> &lt;span class="o">-&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">min&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">index&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">for&lt;/span> &lt;span class="n">j&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="nb">range&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">index&lt;/span>&lt;span class="o">+&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">length&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">j&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">&amp;lt;&lt;/span> &lt;span class="nb">min&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">min&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">j&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">j&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">index&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">index&lt;/span>&lt;span class="p">],&lt;/span> &lt;span class="n">list_&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">j&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">list_&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">unsorted_list&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">5&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">6&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">7&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">8&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">selection_sort&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">unsorted_list&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h3 class="relative group">&lt;strong>Buble Sort&lt;/strong>
+&lt;div id="buble-sort" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#buble-sort" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h3>
+&lt;p>The bubble sort algorithm is applied by going through an array of data a number of times and at the same time comparing two adjacent numbers at a time in order to reorder them if there are out of order. Here is an example snippet written in Python:&lt;/p></description></item><item><title>Map Sort Filter Functions in Python</title><link>https://yalchin403.github.io/blog/posts/map-sort-filter-functions-in-python/map-sort-filter-functions-in-python/</link><pubDate>Fri, 16 May 2025 21:28:34 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/map-sort-filter-functions-in-python/map-sort-filter-functions-in-python/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/blog/images/blog/map-sort-filter-functions-in-python/banner_hu_22a0184bc7cd5fab.png 330w,
+/blog/images/blog/map-sort-filter-functions-in-python/banner_hu_cf9b0e80145433cb.png 660w,
+/blog/images/blog/map-sort-filter-functions-in-python/banner_hu_450efd22e72cae16.png 1024w,
+/blog/images/blog/map-sort-filter-functions-in-python/banner_hu_712f8c24fae5d35a.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/map-sort-filter-functions-in-python/banner_hu_712f8c24fae5d35a.png"
+src="https://yalchin403.github.io/blog/images/blog/map-sort-filter-functions-in-python/banner_hu_cf9b0e80145433cb.png"
+alt="Banner"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;p>This tutorial will help you to see real example of using map, sort, and filter functions along with lambda functions in Python.&lt;/p>
+&lt;p>&lt;strong>Map Function Example&lt;/strong>&lt;/p>
+&lt;p>Python&amp;rsquo;s map() is a built-in function that allows you to process and transform all the items in an iterable without using an explicit for loop, a technique commonly known as mapping. map() is useful when you need to apply a transformation function to each item in an iterable and transform them into a new iterable.&lt;/p></description></item><item><title>Implementing Database Logs or History</title><link>https://yalchin403.github.io/blog/posts/implementing-database-logs-or-history/implementing-database-logs-or-history/</link><pubDate>Fri, 16 May 2025 21:22:57 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/implementing-database-logs-or-history/implementing-database-logs-or-history/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/blog/images/blog/implementing-database-logs-or-history/banner_hu_981884baf530daa2.png 330w,
+/blog/images/blog/implementing-database-logs-or-history/banner_hu_5ccc6d2fa13aba75.png 660w,
+/blog/images/blog/implementing-database-logs-or-history/banner_hu_9339d598105074cf.png 1024w,
+/blog/images/blog/implementing-database-logs-or-history/banner_hu_dc83f0ad01537f97.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/implementing-database-logs-or-history/banner_hu_dc83f0ad01537f97.png"
+src="https://yalchin403.github.io/blog/images/blog/implementing-database-logs-or-history/banner_hu_5ccc6d2fa13aba75.png"
+alt="Banner"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;h2 class="relative group">Introduction
+&lt;div id="introduction" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;p>In the realm of database management, maintaining an accurate record of changes made to the database structure is paramount. This is where the concept of a database changelog comes into play. A changelog, also known as a record history or audit trail, serves as a chronological log of modifications made to the database schema or data. It plays a crucial role in ensuring data integrity, transparency, and accountability within an organization&amp;rsquo;s data management processes.&lt;/p></description></item><item><title>Python Decorators With Function and Decorator Parameters</title><link>https://yalchin403.github.io/blog/posts/python-decorators-with-function-and-decorator-parameters/python-decorators-with-function-and-decorator-parameters/</link><pubDate>Fri, 16 May 2025 21:17:13 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/python-decorators-with-function-and-decorator-parameters/python-decorators-with-function-and-decorator-parameters/</guid><description>&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+loading="lazy"
+srcset="
+/blog/images/blog/python-decorators-with-function-and-decorator-parameters/banner_hu_5bc0906245d352f7.png 330w,
+/blog/images/blog/python-decorators-with-function-and-decorator-parameters/banner_hu_97f144d5f94e5afa.png 660w,
+/blog/images/blog/python-decorators-with-function-and-decorator-parameters/banner_hu_642c54256234bd27.png 1024w,
+/blog/images/blog/python-decorators-with-function-and-decorator-parameters/banner_hu_13df25a649e4470c.png 2x"
+data-zoom-src="https://yalchin403.github.io/blog/images/blog/python-decorators-with-function-and-decorator-parameters/banner_hu_13df25a649e4470c.png"
+src="https://yalchin403.github.io/blog/images/blog/python-decorators-with-function-and-decorator-parameters/banner_hu_97f144d5f94e5afa.png"
+alt="Banner"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-py" data-lang="py">&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">modify_multiply_decorator&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">args&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">**&lt;/span>&lt;span class="n">kwargs&lt;/span>&lt;span class="p">):&lt;/span> &lt;span class="c1"># coeff=3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">def&lt;/span> &lt;span class="nf">dec&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">multiply_func&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">def&lt;/span> &lt;span class="nf">inner&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">nums&lt;/span>&lt;span class="p">):&lt;/span> &lt;span class="c1"># (2, 290)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">coefficient&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">kwargs&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;coefficient&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="c1"># 3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">result&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">multiply_func&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">nums&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="c1"># 2 * 290&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">modified_result&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">coefficient&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">result&lt;/span> &lt;span class="c1"># 3 * 580&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">modified_result&lt;/span> &lt;span class="c1"># 1740&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">inner&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">dec&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-py" data-lang="py">&lt;span class="line">&lt;span class="cl">&lt;span class="nd">@modify_multiply_decorator&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">coefficient&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="mi">3&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">multiply&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">nums&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">0&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">*&lt;/span> &lt;span class="n">nums&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">multiply&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="mi">290&lt;/span>&lt;span class="p">))&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>How to Setup Mailgun in Django</title><link>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</link><pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-setup-mailgun-in-django/how-to-setup-mailgun-in-django/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
