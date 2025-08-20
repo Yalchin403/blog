@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo &middot; Tech and Lifestyle Blog</title>
-  <meta name="title" content="Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo &middot; Tech and Lifestyle Blog" />
+  <title>How to Secure Ipfs Node &middot; Tech and Lifestyle Blog</title>
+  <meta name="title" content="How to Secure Ipfs Node &middot; Tech and Lifestyle Blog" />
   
   
-  <meta name="keywords" content="pymongo, mongodb, python, " />
   
   
-  <link rel="canonical" href="//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/" />
+  
+  <link rel="canonical" href="//localhost:1313/posts/how-to-secure-ipfs-node/" />
   
   
   
@@ -67,25 +67,22 @@
   
   
   
-  <meta property="og:url" content="//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/">
+  <meta property="og:url" content="//localhost:1313/posts/how-to-secure-ipfs-node/">
   <meta property="og:site_name" content="Tech and Lifestyle Blog">
-  <meta property="og:title" content="Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo">
-  <meta property="og:description" content="Ellaborate case # Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as pain in the ass. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don’t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely pymongo and mongoengine. I was familiar with pymongo as in my telegram bot I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.">
+  <meta property="og:title" content="How to Secure Ipfs Node">
+  <meta property="og:description" content="Why You Should Never Expose the IPFS RPC API Publicly (and How to Secure It) # When running an IPFS node, one of the most important security considerations is how you handle ports and the RPC API. Many new users unknowingly expose their node’s RPC API to the internet, leaving it wide open for abuse. In this post, we’ll explore why this is dangerous and how you can protect yourself with IPFS’s built-in basic authentication.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-05-13T00:51:03+02:00">
-    <meta property="article:modified_time" content="2025-05-13T00:51:03+02:00">
-    <meta property="article:tag" content="Pymongo">
-    <meta property="article:tag" content="Mongodb">
-    <meta property="article:tag" content="Python">
-    <meta property="og:image" content="//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/featured.png">
+    <meta property="article:published_time" content="2025-08-19T13:36:21+02:00">
+    <meta property="article:modified_time" content="2025-08-19T13:36:21+02:00">
+    <meta property="og:image" content="//localhost:1313/posts/how-to-secure-ipfs-node/featured.png">
 
   
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/featured.png">
-  <meta name="twitter:title" content="Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo">
-  <meta name="twitter:description" content="Ellaborate case # Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as pain in the ass. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don’t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely pymongo and mongoengine. I was familiar with pymongo as in my telegram bot I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.">
+  <meta name="twitter:image" content="//localhost:1313/posts/how-to-secure-ipfs-node/featured.png">
+  <meta name="twitter:title" content="How to Secure Ipfs Node">
+  <meta name="twitter:description" content="Why You Should Never Expose the IPFS RPC API Publicly (and How to Secure It) # When running an IPFS node, one of the most important security considerations is how you handle ports and the RPC API. Many new users unknowingly expose their node’s RPC API to the internet, leaving it wide open for abuse. In this post, we’ll explore why this is dangerous and how you can protect yourself with IPFS’s built-in basic authentication.">
 
   
   <script type="application/ld+json">
@@ -93,26 +90,26 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo",
-    "headline": "Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo",
+    "name": "How to Secure Ipfs Node",
+    "headline": "How to Secure Ipfs Node",
     
-    "abstract": "\u003ch1 class=\u0022relative group\u0022\u003eEllaborate case \n    \u003cdiv id=\u0022ellaborate-case\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#ellaborate-case\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h1\u003e\n\u003cp\u003eBefore starting with set up and everything, I would love to confess that I find Mongodb and Python combination as \u003cstrong\u003epain in the ass\u003c\/strong\u003e. Recently I have got an job offer as Python\/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don\u0026rsquo;t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely \u003ca href=\u0022https:\/\/pymongo.readthedocs.io\/en\/stable\/\u0022 target=\u0022_blank\u0022\u003epymongo\u003c\/a\u003e and \u003ca href=\u0022https:\/\/docs.mongoengine.org\/\u0022 target=\u0022_blank\u0022\u003emongoengine\u003c\/a\u003e. I was familiar with pymongo as in my \u003ca href=\u0022https:\/\/t.me\/mp3converteryoutubebot\u0022 target=\u0022_blank\u0022\u003etelegram bot\u003c\/a\u003e I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.\u003c\/p\u003e",
+    "abstract": "\u003ch1 class=\u0022relative group\u0022\u003eWhy You Should Never Expose the IPFS RPC API Publicly (and How to Secure It) \n    \u003cdiv id=\u0022why-you-should-never-expose-the-ipfs-rpc-api-publicly-and-how-to-secure-it\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100\u0022\u003e\n        \u003ca class=\u0022group-hover:text-primary-300 dark:group-hover:text-neutral-700\u0022\n            style=\u0022text-decoration-line: none !important;\u0022 href=\u0022#why-you-should-never-expose-the-ipfs-rpc-api-publicly-and-how-to-secure-it\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e        \n    \n\u003c\/h1\u003e\n\u003cp\u003eWhen running an \u003ca href=\u0022https:\/\/ipfs.tech\/\u0022 target=\u0022_blank\u0022\u003eIPFS\u003c\/a\u003e node, one of the most important security considerations is how you handle \u003cstrong\u003eports\u003c\/strong\u003e and the \u003cstrong\u003eRPC API\u003c\/strong\u003e. Many new users unknowingly expose their node’s RPC API to the internet, leaving it wide open for abuse. In this post, we’ll explore why this is dangerous and how you can protect yourself with IPFS’s built-in \u003cstrong\u003ebasic authentication\u003c\/strong\u003e.\u003c\/p\u003e",
     "inLanguage": "en",
-    "url" : "\/\/localhost:1313\/posts\/accent-and-case-sensitive-search-pymongo\/",
+    "url" : "\/\/localhost:1313\/posts\/how-to-secure-ipfs-node\/",
     "author" : {
       "@type": "Person",
       "name": "Yalchin Mammadli"
     },
     "copyrightYear": "2025",
-    "dateCreated": "2025-05-13T00:51:03\u002b02:00",
-    "datePublished": "2025-05-13T00:51:03\u002b02:00",
+    "dateCreated": "2025-08-19T13:36:21\u002b02:00",
+    "datePublished": "2025-08-19T13:36:21\u002b02:00",
     
-    "dateModified": "2025-05-13T00:51:03\u002b02:00",
+    "dateModified": "2025-08-19T13:36:21\u002b02:00",
     
-    "keywords": ["pymongo","mongodb","python"],
+    
     
     "mainEntityOfPage": "true",
-    "wordCount": "800"
+    "wordCount": "557"
   }]
   </script>
 
@@ -436,7 +433,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/posts/accent-and-case-sensitive-search-pymongo/featured_hu_22cd0ab35c2af9d7.png);">
+    style="background-image:url(/posts/how-to-secure-ipfs-node/featured_hu_63ef52eb07c6411e.png);">
     
 
 
@@ -489,8 +486,8 @@
   <li class="hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/posts/accent-and-case-sensitive-search-pymongo/"
-      >Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo</a
+      href="/posts/how-to-secure-ipfs-node/"
+      >How to Secure Ipfs Node</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -499,7 +496,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Accent and Case Insensitive Search and Minimum Distance Calculator in Pymongo
+      How to Secure Ipfs Node
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -544,7 +541,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-05-13T00:51:03&#43;02:00">13 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span><span class="px-2 text-primary-500">&middot;</span>
+  <time datetime="2025-08-19T13:36:21&#43;02:00">19 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
 <script type="text/javascript" src="/js/zen-mode.min.eea5245cf9244ecbdf2c150d1c8833226c1541cadf6e98f63a7c9192b1a3676df2c3ec603b14f4cfaaa53971fd9d8955640c0f405bf3de2b43ee7a5fb29ae721.js" integrity="sha512-7qUkXPkkTsvfLBUNHIgzImwVQcrfbpj2OnyRkrGjZ23yw&#43;xgOxT0z6qlOXH9nYlVZAwPQFvz3itD7npfsprnIQ=="></script>
@@ -600,32 +597,6 @@
   
   
   
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pymongo/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Pymongo
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mongodb/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Mongodb
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Python
-  </span>
-</span>
-  </span>
   
   
   
@@ -735,7 +706,129 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-role-of-ports-in-ipfs">The Role of Ports in IPFS</a></li>
+    <li><a href="#why-you-shouldnt-expose-the-rpc-api">Why You Shouldn’t Expose the RPC API</a></li>
+    <li><a href="#securing-the-rpc-api-with-basic-auth">Securing the RPC API with Basic Auth</a>
+      <ul>
+        <li><a href="#step-1-generate-a-password-hash">Step 1: Generate a Password Hash</a></li>
+        <li><a href="#step-2-add-it-to-your-ipfs-config">Step 2: Add It to Your IPFS Config</a></li>
+        <li><a href="#step-3-restart-your-node">Step 3: Restart Your Node</a></li>
+      </ul>
+    </li>
+    <li><a href="#best-practices">Best Practices</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#the-role-of-ports-in-ipfs">The Role of Ports in IPFS</a></li>
+    <li><a href="#why-you-shouldnt-expose-the-rpc-api">Why You Shouldn’t Expose the RPC API</a></li>
+    <li><a href="#securing-the-rpc-api-with-basic-auth">Securing the RPC API with Basic Auth</a>
+      <ul>
+        <li><a href="#step-1-generate-a-password-hash">Step 1: Generate a Password Hash</a></li>
+        <li><a href="#step-2-add-it-to-your-ipfs-config">Step 2: Add It to Your IPFS Config</a></li>
+        <li><a href="#step-3-restart-your-node">Step 3: Restart Your Node</a></li>
+      </ul>
+    </li>
+    <li><a href="#best-practices">Best Practices</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -745,162 +838,165 @@
         <div class="article-content max-w-prose mb-20">
           
 
-<h1 class="relative group">Ellaborate case 
-    <div id="ellaborate-case" class="anchor"></div>
+<h1 class="relative group">Why You Should Never Expose the IPFS RPC API Publicly (and How to Secure It) 
+    <div id="why-you-should-never-expose-the-ipfs-rpc-api-publicly-and-how-to-secure-it" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#ellaborate-case" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#why-you-should-never-expose-the-ipfs-rpc-api-publicly-and-how-to-secure-it" aria-label="Anchor">#</a>
     </span>        
     
 </h1>
-<p>Before starting with set up and everything, I would love to confess that I find Mongodb and Python combination as <strong>pain in the ass</strong>. Recently I have got an job offer as Python/Flask developer in one of the local companies in my country. They are using Mongodb as their production database. They requested a little bit of task to accomplish before we move on to HR interview. So the task was about coding autocomplete search logic and also finding the closest location to our current location from the database. Task seems interesting and pretty much easy to solve, at least for me as a Django developer who have used Postgresql as default database in most of the cases. However, seemed like things don&rsquo;t go so well with Mongodb in django. It seemed like if Python is envolved, we normally have two pypi packages two use, namely <a href="https://pymongo.readthedocs.io/en/stable/" target="_blank">pymongo</a> and <a href="https://docs.mongoengine.org/" target="_blank">mongoengine</a>. I was familiar with pymongo as in my <a href="https://t.me/mp3converteryoutubebot" target="_blank">telegram bot</a> I use Mongodb as database and use pymongo to implement database actions. Hence, below I will explain how I implemented case and accent insensitive search and minimum distance finding via pymongo.</p>
+<p>When running an <a href="https://ipfs.tech/" target="_blank">IPFS</a> node, one of the most important security considerations is how you handle <strong>ports</strong> and the <strong>RPC API</strong>. Many new users unknowingly expose their node’s RPC API to the internet, leaving it wide open for abuse. In this post, we’ll explore why this is dangerous and how you can protect yourself with IPFS’s built-in <strong>basic authentication</strong>.</p>
+<hr>
 
 
-<h1 class="relative group">Database setup 
-    <div id="database-setup" class="anchor"></div>
+<h2 class="relative group">The Role of Ports in IPFS 
+    <div id="the-role-of-ports-in-ipfs" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#database-setup" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#the-role-of-ports-in-ipfs" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
-<p>First we need to make sure we have all the dependencies to be able to run our Python modules successfully, I will name then, and also drop my requirements.txt content as well:</p>
-<p>Dependencies:</p>
+</h2>
+<p>IPFS uses several ports to handle communication:</p>
 <ul>
-<li>pymongo</li>
-<li>sqlparse</li>
-<li>geographiclib</li>
-<li>geopy</li>
+<li><strong>Swarm Ports</strong> – Used for peer-to-peer communication with the IPFS network.</li>
+<li><strong>Gateway Port</strong> – Used to serve content to HTTP clients (default: <code>8080</code>).</li>
+<li><strong>API (RPC) Port</strong> – Used to interact with your local node programmatically (default: <code>5001</code>).</li>
 </ul>
-<p>Here is the content of <code>requirements.txt</code> which you can use by running <code>pip install -r requirements.txt</code>:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-txt" data-lang="txt"><span class="line"><span class="cl">backports.zoneinfo==0.2.1
-</span></span><span class="line"><span class="cl">geographiclib==1.52
-</span></span><span class="line"><span class="cl">geopy==2.2.0
-</span></span><span class="line"><span class="cl">pymongo==4.1.1
-</span></span><span class="line"><span class="cl">python-dotenv==0.20.0
-</span></span><span class="line"><span class="cl">sqlparse==0.2.4
-</span></span></code></pre></div><p>Now, you can create local database or use <a href="https://cloud.mongodb.com" target="_blank">Mongodb atlas</a> which I personally prefered. Create database, and also get your <code>URI</code> which you will use to connect to your database via utilizing pymongo. You can watch <a href="https://www.youtube.com/watch?v=VQnmcBnguPY" target="_blank">this</a> video if you don&rsquo;t know how to set up remote mongodb database and configure connection via pymongo. If you want to keep your atlas account safe, do not include <code>URI</code> inside your project direcly but use <code>env</code> and some library like <a href="https://pypi.org/project/python-dotenv/" target="_blank">python-dotenv</a> to load <code>.env</code> content into os enviroment variables. Here is my database set up that you can use:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">dotenv</span> <span class="kn">import</span> <span class="n">load_dotenv</span>
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
-</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pymongo</span> <span class="kn">import</span> <span class="n">MongoClient</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">load_dotenv</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">DATABASE_URI</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s2">&#34;DATABASE_URI&#34;</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">(</span><span class="n">DATABASE_URI</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">(</span><span class="n">DATABASE_URI</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">db</span> <span class="o">=</span> <span class="n">client</span><span class="o">.</span><span class="n">get_database</span><span class="p">(</span><span class="s1">&#39;autocompletedb&#39;</span><span class="p">)</span> <span class="c1"># here autocompletedb is the name of database</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># This is added so that many files can reuse the function get_database()</span>
-</span></span><span class="line"><span class="cl"><span class="n">addresses_table</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">addresses</span> <span class="c1"># here the addresses is the name of table inside autocomplete database</span>
-</span></span></code></pre></div>
+<p>The <strong>API port</strong> is the most sensitive. It gives full control over your node: pinning, unpinning, adding, and retrieving files. If this port is exposed publicly, anyone could manipulate your node as if they had direct access to it.</p>
+<hr>
 
-<h1 class="relative group">Minimum distance calculation 
-    <div id="minimum-distance-calculation" class="anchor"></div>
+
+<h2 class="relative group">Why You Shouldn’t Expose the RPC API 
+    <div id="why-you-shouldnt-expose-the-rpc-api" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#minimum-distance-calculation" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#why-you-shouldnt-expose-the-rpc-api" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
-<p>MongoDB supports query operations on geospatial data so we can take advantage of this functionality without writing our own formula two calculate minimum distance between two coordinates containing latitude and longitude. I found <a href="https://towardsdatascience.com/finding-distance-between-two-latitudes-and-longitudes-in-python-43e92d6829ff" target="_blank">this</a> very interesting if you are interested in the math side of the case. If not, you can use below snippet:</p>
-<p>First ensure that you have a proper index in the database:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">pymongo</span> <span class="kn">import</span> <span class="n">MongoClient</span><span class="p">,</span> <span class="n">GEOSPHERE</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">client</span> <span class="o">=</span> <span class="n">MongoClient</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl"><span class="n">collection</span> <span class="o">=</span> <span class="n">db</span><span class="p">[</span><span class="s1">&#39;COLLECTION_NAME&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># create index</span>
-</span></span><span class="line"><span class="cl"><span class="n">collection</span><span class="o">.</span><span class="n">create_index</span><span class="p">([(</span><span class="s1">&#39;geo&#39;</span><span class="p">,</span> <span class="n">GEOSPHERE</span><span class="p">)])</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="c1"># store GPS coordinates in db</span>
-</span></span></code></pre></div><p>And make sure you keep your latitude and longitude that way:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="n">lat</span> <span class="o">=</span> <span class="o">...</span>
-</span></span><span class="line"><span class="cl"><span class="n">lon</span> <span class="o">=</span> <span class="o">...</span>
-</span></span><span class="line"><span class="cl"><span class="n">item</span> <span class="o">=</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">  <span class="s1">&#39;geo&#39;</span><span class="p">:</span> <span class="p">{</span>
-</span></span><span class="line"><span class="cl">	  <span class="s1">&#39;type&#39;</span><span class="p">:</span> <span class="s2">&#34;Point&#34;</span><span class="p">,</span>
-</span></span><span class="line"><span class="cl">	  <span class="s1">&#39;coordinates&#39;</span><span class="p">:</span> <span class="p">[</span><span class="n">lon</span><span class="p">,</span> <span class="n">lat</span><span class="p">]</span>
+</h2>
+<p>Leaving the RPC API open to the internet means:</p>
+<ul>
+<li><strong>Unauthorized Pinning/Unpinning</strong> – Strangers could pin huge files to your node, filling up your storage.</li>
+<li><strong>Resource Abuse</strong> – Attackers might use your node as free infrastructure, at your expense.</li>
+<li><strong>Data Loss</strong> – Someone could unpin important files and cause you to lose access.</li>
+<li><strong>Security Risks</strong> – Malicious payloads or content could be forced onto your node, exposing you legally or technically.</li>
+</ul>
+<p>In short: <strong>public RPC API = open invitation to abuse</strong>.</p>
+<hr>
+
+
+<h2 class="relative group">Securing the RPC API with Basic Auth 
+    <div id="securing-the-rpc-api-with-basic-auth" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#securing-the-rpc-api-with-basic-auth" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Fortunately, IPFS provides a simple mechanism to protect your API: <strong>basic authentication</strong>. By enabling it, only requests with valid credentials will be able to interact with your node. Btw, this is very basic security solution you can use out of the box and of course if you want you can always over-engineer it :)</p>
+
+
+<h3 class="relative group">Step 1: Generate a Password Hash 
+    <div id="step-1-generate-a-password-hash" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#step-1-generate-a-password-hash" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Run the following command to generate a hashed password:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs config --json API.HTTPHeaders.Access-Control-Allow-Credentials <span class="s1">&#39;[&#34;true&#34;]&#39;</span>
+</span></span><span class="line"><span class="cl">ipfs config --json API.HTTPHeaders.Authorization <span class="s1">&#39;[&#34;Basic &lt;base64-user-pass&gt;&#34;]&#39;</span>
+</span></span></code></pre></div><p>To create the <code>&lt;base64-user-pass&gt;</code> string:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> -n <span class="s2">&#34;username:password&#34;</span> <span class="p">|</span> base64
+</span></span></code></pre></div><p>For example, <code>admin:strongpass</code> might become something like:</p>
+<pre tabindex="0"><code>YWRtaW46c3Ryb25ncGFzcw==
+</code></pre><hr>
+
+
+<h3 class="relative group">Step 2: Add It to Your IPFS Config 
+    <div id="step-2-add-it-to-your-ipfs-config" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#step-2-add-it-to-your-ipfs-config" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>Edit your <code>~/.ipfs/config</code> and under the <code>API.HTTPHeaders</code> section, add:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="s2">&#34;API&#34;</span><span class="err">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;HTTPHeaders&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Access-Control-Allow-Origin&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;*&#34;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Access-Control-Allow-Credentials&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;true&#34;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;Authorization&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Basic YWRtaW46c3Ryb25ncGFzcw==&#34;</span><span class="p">]</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
-</span></span><span class="line"><span class="cl"><span class="n">collection</span><span class="o">.</span><span class="n">insert_one</span><span class="p">(</span><span class="n">item</span><span class="p">)</span>
-</span></span></code></pre></div><p>As you have index and proper data in place, you can start retrieving it:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">calculate_distance</span><span class="p">(</span><span class="n">coordinates</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">	<span class="n">latitude</span><span class="p">,</span> <span class="n">longitude</span> <span class="o">=</span> <span class="n">coordinates</span>
-</span></span><span class="line"><span class="cl">	<span class="n">items</span> <span class="o">=</span> <span class="n">addresses_table</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="s1">&#39;geo&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&#34;$nearSphere&#34;</span><span class="p">:</span> <span class="p">[</span><span class="n">latitude</span><span class="p">,</span> <span class="n">longitude</span><span class="p">],</span> <span class="s2">&#34;$maxDistance&#34;</span><span class="p">:</span> <span class="mi">5000</span><span class="p">}})</span>
-</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">item</span>
-</span></span></code></pre></div><p>This will take coordinates as tuple and from the database and find the coordinates with minimum distance relative to the given coordinates (<code>max_distance = 5 km</code>)</p>
+</span></span></code></pre></div><p>This ensures only requests with the correct username and password can reach the API.</p>
+<hr>
 
 
-<h1 class="relative group">Accent and Case Insensitive Search 
-    <div id="accent-and-case-insensitive-search" class="anchor"></div>
+<h3 class="relative group">Step 3: Restart Your Node 
+    <div id="step-3-restart-your-node" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#accent-and-case-insensitive-search" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#step-3-restart-your-node" aria-label="Anchor">#</a>
     </span>        
     
-</h1>
-<p>This part was a bit tricky, as I couldn&rsquo;t make the accent insensitive search work using different function shown in the documentation, they somehow didn&rsquo;t work properly. I used regular expression with <code>i</code> option to ignore case sensitivity and searched for the given keywork from different fields in my collection. Additionally to consider accent, based on keyword, I created other versions of the keyword (considering accent). For example if someone searchs for Helen, I will be searching for both <code>Helen</code> and <code>Hélen</code> and vice versa. Below its implemnetation is given:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">normalize_keyword</span><span class="p">(</span><span class="n">keyword</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">  <span class="n">keyword</span> <span class="o">=</span> <span class="n">keyword</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span>
-</span></span><span class="line"><span class="cl">  <span class="n">variants</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;ə&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;e&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;ı&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;i&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;ç&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;c&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;ş&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;s&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;ö&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;o&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;ğ&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;g&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;e&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ə&#39;</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;a&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ə&#39;</span><span class="p">,</span> <span class="s1">&#39;e&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;i&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ı&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;c&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ç&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;s&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ş&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;o&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ö&#39;</span><span class="p">],</span>
-</span></span><span class="line"><span class="cl">		<span class="s1">&#39;g&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;ğ&#39;</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">		<span class="p">}</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="n">possibilities</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="k">for</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">keyword</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="n">letter</span> <span class="ow">in</span> <span class="n">variants</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">	  <span class="n">substitutes</span> <span class="o">=</span> <span class="n">variants</span><span class="p">[</span><span class="n">letter</span><span class="p">]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	  <span class="k">for</span> <span class="n">substitute</span> <span class="ow">in</span> <span class="n">substitutes</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">		<span class="n">possibilities</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">keyword</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">letter</span><span class="p">,</span> <span class="n">substitute</span><span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="n">possibilities</span> <span class="o">=</span> <span class="nb">set</span><span class="p">(</span><span class="n">possibilities</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="n">possibilities</span>
-</span></span></code></pre></div><p>As mentioned with the help of above function and regex search we implement the search functionality:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-py" data-lang="py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">apply_multiple_filters</span><span class="p">(</span><span class="n">keywords</span><span class="p">):</span>
-</span></span><span class="line"><span class="cl">	<span class="n">keywords</span> <span class="o">=</span> <span class="n">normalize_keyword</span><span class="p">(</span><span class="n">keywords</span><span class="p">)</span>
-</span></span><span class="line"><span class="cl">	<span class="n">results</span> <span class="o">=</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="n">keyword</span> <span class="ow">in</span> <span class="n">keywords</span><span class="p">:</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">		<span class="n">results</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">addresses_table</span><span class="o">.</span><span class="n">find</span><span class="p">({</span><span class="s1">&#39;$or&#39;</span><span class="p">:</span> <span class="p">[</span>
-</span></span><span class="line"><span class="cl">							<span class="p">{</span><span class="s1">&#39;city&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;$regex&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span> <span class="s1">&#39;$options&#39;</span><span class="p">:</span> <span class="s1">&#39;i&#39;</span><span class="p">}},</span>
-</span></span><span class="line"><span class="cl">							<span class="p">{</span><span class="s1">&#39;street&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;$regex&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span> <span class="s1">&#39;$options&#39;</span><span class="p">:</span> <span class="s1">&#39;i&#39;</span><span class="p">}},</span>
-</span></span><span class="line"><span class="cl">							<span class="p">{</span><span class="s1">&#39;street_number&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;$regex&#39;</span><span class="p">:</span> <span class="n">keyword</span><span class="p">,</span> <span class="s1">&#39;$options&#39;</span><span class="p">:</span> <span class="s1">&#39;i&#39;</span><span class="p">}}</span>
-</span></span><span class="line"><span class="cl">						<span class="p">]</span>
-</span></span><span class="line"><span class="cl">					<span class="p">}</span>
-</span></span><span class="line"><span class="cl">		<span class="p">))</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">results</span>
-</span></span></code></pre></div>
+</h3>
+<p>Restart IPFS to apply the changes:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ipfs shutdown
+</span></span><span class="line"><span class="cl">ipfs daemon
+</span></span></code></pre></div><p>Now, all API calls must include the <strong>Authorization header</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -X POST -u <span class="s2">&#34;admin:strongpass&#34;</span> <span class="s2">&#34;http://127.0.0.1:5001/api/v0/pin/add?arg=QmHash...&#34;</span>
+</span></span></code></pre></div><hr>
+
+
+<h2 class="relative group">Best Practices 
+    <div id="best-practices" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#best-practices" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li><strong>Bind the API to localhost only</strong> – Don’t bind to <code>0.0.0.0</code> unless you absolutely need remote access.</li>
+<li><strong>Use Basic Auth for remote access</strong> – Even if bound locally, protect the API with auth.</li>
+<li><strong>Reverse Proxy with TLS</strong> – For production, consider putting the API behind Nginx or Traefik with HTTPS.</li>
+</ul>
+<hr>
+
+
+<h2 class="relative group">Conclusion 
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Understanding IPFS ports and protecting your RPC API is essential to keeping your node safe. Exposing the API without security is like leaving your house unlocked with the lights on—someone will eventually walk in. By enabling IPFS’s built-in <strong>basic auth</strong>, you can ensure only you (or trusted apps) have control over pinning, unpinning, and retrieving files.</p>
+<p>Stay secure, and keep your IPFS node under your control!</p>
+
           
           
           
@@ -917,7 +1013,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;title=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;title=How%20to%20Secure%20Ipfs%20Node"
       title="Share on LinkedIn"
       aria-label="Share on LinkedIn"
       >
@@ -936,7 +1032,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://twitter.com/intent/tweet/?url=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;text=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://twitter.com/intent/tweet/?url=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;text=How%20to%20Secure%20Ipfs%20Node"
       title="Tweet on Twitter"
       aria-label="Tweet on Twitter"
       >
@@ -954,7 +1050,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://bsky.app/intent/compose?text=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo&#43;//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/"
+      href="https://bsky.app/intent/compose?text=How%20to%20Secure%20Ipfs%20Node&#43;//localhost:1313/posts/how-to-secure-ipfs-node/"
       title="Post on Bluesky"
       aria-label="Post on Bluesky"
       >
@@ -972,7 +1068,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://reddit.com/submit/?url=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;resubmit=true&amp;title=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://reddit.com/submit/?url=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;resubmit=true&amp;title=How%20to%20Secure%20Ipfs%20Node"
       title="Submit to Reddit"
       aria-label="Submit to Reddit"
       >
@@ -991,7 +1087,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://api.whatsapp.com/send?text=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;resubmit=true&amp;title=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://api.whatsapp.com/send?text=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;resubmit=true&amp;title=How%20to%20Secure%20Ipfs%20Node"
       title="Share via WhatsApp"
       aria-label="Share via WhatsApp"
       >
@@ -1010,7 +1106,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://t.me/share/url?url=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;resubmit=true&amp;title=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://t.me/share/url?url=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;resubmit=true&amp;title=How%20to%20Secure%20Ipfs%20Node"
       title="Share via Telegram"
       aria-label="Share via Telegram"
       >
@@ -1029,7 +1125,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://pinterest.com/pin/create/bookmarklet/?url=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;description=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://pinterest.com/pin/create/bookmarklet/?url=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;description=How%20to%20Secure%20Ipfs%20Node"
       title="Pin on Pinterest"
       aria-label="Pin on Pinterest"
       >
@@ -1048,7 +1144,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="https://www.facebook.com/sharer/sharer.php?u=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;quote=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="https://www.facebook.com/sharer/sharer.php?u=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;quote=How%20to%20Secure%20Ipfs%20Node"
       title="Share on Facebook"
       aria-label="Share on Facebook"
       >
@@ -1067,7 +1163,7 @@
       <a
       target="_blank"
       class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800"
-      href="mailto:?body=//localhost:1313/posts/accent-and-case-sensitive-search-pymongo/&amp;subject=Accent%20and%20Case%20Insensitive%20Search%20and%20Minimum%20Distance%20Calculator%20in%20Pymongo"
+      href="mailto:?body=//localhost:1313/posts/how-to-secure-ipfs-node/&amp;subject=How%20to%20Secure%20Ipfs%20Node"
       title="Send via email"
       aria-label="Send via email"
       >
@@ -1093,11 +1189,11 @@
   
   
 
-  <a href="/posts/securely-configure-vps/" class="min-w-full">
+  <a href="/posts/implementing-database-logs-or-history/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/securely-configure-vps/featured_hu_3696c383e7d2ffc3.png);"></div>
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/implementing-database-logs-or-history/featured_hu_42dd7e469bafbe94.png);"></div>
         
       
 
@@ -1105,7 +1201,7 @@
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/posts/securely-configure-vps/">Securely Configure Vps</div>
+          href="/posts/implementing-database-logs-or-history/">Implementing Database Logs or History</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -1146,7 +1242,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-05-13T00:20:23&#43;02:00">13 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  <time datetime="2025-05-16T21:22:57&#43;02:00">16 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
   
 
   
@@ -1184,18 +1280,658 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/vps/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/database/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Vps
+    Database
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/security/&#34;,'_self');return false;">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/architecture/&#34;,'_self');return false;">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Security
+    Architecture
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/sorting-algorithms-and-binary-search-in-python/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/sorting-algorithms-and-binary-search-in-python/featured_hu_2cd7a50d633d95ca.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/sorting-algorithms-and-binary-search-in-python/">Sorting Algorithms and Binary Search in Python</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-05-16T21:43:57&#43;02:00">16 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/algorithms/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Algorithms
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/map-sort-filter-functions-in-python/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/map-sort-filter-functions-in-python/featured_hu_c49c24e654e03301.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/map-sort-filter-functions-in-python/">Map Sort Filter Functions in Python</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-05-16T21:28:34&#43;02:00">16 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/algorithms/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Algorithms
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/python-decorators-with-function-and-decorator-parameters/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/python-decorators-with-function-and-decorator-parameters/featured_hu_4993d49932a4d625.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/python-decorators-with-function-and-decorator-parameters/">Python Decorators With Function and Decorator Parameters</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-05-16T21:17:13&#43;02:00">16 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">1 min</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/how-to-setup-mailgun-in-django/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/how-to-setup-mailgun-in-django/featured_hu_b61ce5c22c21a0b5.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/how-to-setup-mailgun-in-django/">How to Setup Mailgun in Django</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-05-15T12:29:36&#43;02:00">15 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/django/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Django
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/mailgun/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Mailgun
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/posts/how-to-setup-github-ssh-key/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/posts/how-to-setup-github-ssh-key/featured_hu_1aa2835e412c53e6.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/posts/how-to-setup-github-ssh-key/">How to Setup Github Ssh Key</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2025-05-15T12:27:47&#43;02:00">15 May 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/github/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Github
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ssh-key/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Ssh-Key
   </span>
 </span>
   </span>
@@ -1240,8 +1976,8 @@
           
         
       <script>
-        var oid = "views_posts\/accent-and-case-sensitive-search-pymongo\/index.md"
-        var oid_likes = "likes_posts\/accent-and-case-sensitive-search-pymongo\/index.md"
+        var oid = "views_posts\/how-to-secure-ipfs-node\/index.md"
+        var oid_likes = "likes_posts\/how-to-secure-ipfs-node\/index.md"
       </script>
       
       
@@ -1261,7 +1997,7 @@
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="flex group mr-3" href="/posts/securely-configure-vps/">
+            <a class="flex group mr-3" href="/posts/sorting-algorithms-and-binary-search-in-python/">
               <span
                 class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
                 >&larr;</span
@@ -1273,11 +2009,11 @@
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Securely Configure Vps</span
+                  >Sorting Algorithms and Binary Search in Python</span
                 >
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
-                    <time datetime="2025-05-13T00:20:23&#43;02:00">13 May 2025</time>
+                    <time datetime="2025-05-16T21:43:57&#43;02:00">16 May 2025</time>
                   
                 </span>
               </span>
@@ -1285,28 +2021,6 @@
           
         </span>
         <span>
-          
-            <a class="flex text-right group ml-3" href="/posts/how-to-deploy-nodejs-app/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >How to Deploy Nodejs App</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2025-05-13T00:53:10&#43;02:00">13 May 2025</time>
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
           
         </span>
       </div>

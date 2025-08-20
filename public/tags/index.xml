@@ -7,7 +7,127 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yalchin Mammadli</copyright>
-    <lastBuildDate>Tue, 13 May 2025 00:51:03 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 May 2025 21:43:57 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Algorithms</title>
+      <link>//localhost:1313/tags/algorithms/</link>
+      <pubDate>Fri, 16 May 2025 21:43:57 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/algorithms/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>//localhost:1313/tags/python/</link>
+      <pubDate>Fri, 16 May 2025 21:43:57 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>//localhost:1313/tags/architecture/</link>
+      <pubDate>Fri, 16 May 2025 21:22:57 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/architecture/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Database</title>
+      <link>//localhost:1313/tags/database/</link>
+      <pubDate>Fri, 16 May 2025 21:22:57 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/database/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>//localhost:1313/tags/django/</link>
+      <pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/django/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mailgun</title>
+      <link>//localhost:1313/tags/mailgun/</link>
+      <pubDate>Thu, 15 May 2025 12:29:36 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/mailgun/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Devops</title>
+      <link>//localhost:1313/tags/devops/</link>
+      <pubDate>Thu, 15 May 2025 12:27:47 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/devops/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>//localhost:1313/tags/github/</link>
+      <pubDate>Thu, 15 May 2025 12:27:47 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/github/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ssh-Key</title>
+      <link>//localhost:1313/tags/ssh-key/</link>
+      <pubDate>Thu, 15 May 2025 12:27:47 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/ssh-key/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>//localhost:1313/tags/nginx/</link>
+      <pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/nginx/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Nodejs</title>
+      <link>//localhost:1313/tags/nodejs/</link>
+      <pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/nodejs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pm2</title>
+      <link>//localhost:1313/tags/pm2/</link>
+      <pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/pm2/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Mongodb</title>
@@ -30,11 +150,21 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>//localhost:1313/tags/python/</link>
-      <pubDate>Tue, 13 May 2025 00:51:03 +0200</pubDate>
+      <title>Security</title>
+      <link>//localhost:1313/tags/security/</link>
+      <pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate>
       
-      <guid>//localhost:1313/tags/python/</guid>
+      <guid>//localhost:1313/tags/security/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Vps</title>
+      <link>//localhost:1313/tags/vps/</link>
+      <pubDate>Tue, 13 May 2025 00:20:23 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/vps/</guid>
       <description></description>
       
     </item>
