@@ -2,7 +2,7 @@
 date = '2025-08-19T13:36:21+02:00'
 draft = false
 title = 'How to Secure Ipfs Node'
-tags=["ipfs", "decentralized storage", "web3"]
+tags=["IPFS", "Decentralized Storage", "Web3"]
 +++
 
 # Why You Should Never Expose the IPFS RPC API Publicly (and How to Secure It)
