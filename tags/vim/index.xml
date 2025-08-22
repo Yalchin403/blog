@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vim on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/tags/vim/</link><description>Recent content in Vim on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Fri, 22 Aug 2025 22:46:44 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/tags/vim/index.xml" rel="self" type="application/rss+xml"/><item><title>Basic Vim Cheat Sheet</title><link>https://yalchin403.github.io/blog/posts/basic-vim-cheat-sheet/</link><pubDate>Fri, 22 Aug 2025 22:46:44 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/basic-vim-cheat-sheet/</guid><description>&lt;p>Vim is a highly configurable text editor built to make creating and changing any kind of text very efficient. It is included as &amp;ldquo;vi&amp;rdquo; with most UNIX systems and with Apple OS X. This written tutorial will help you to understand basic key bindings of Vim. You can also refer to this tutorial in order to use it as your cheat sheet.&lt;/p>
+&lt;h2 class="relative group">Your Cheat Sheet
+&lt;div id="your-cheat-sheet" class="anchor">&lt;/div>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#your-cheat-sheet" aria-label="Anchor">#&lt;/a>
+&lt;/span>
+&lt;/h2>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>No&lt;/th>
+&lt;th>Command&lt;/th>
+&lt;th>Meaning&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1&lt;/td>
+&lt;td>:w&lt;/td>
+&lt;td>Save&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2&lt;/td>
+&lt;td>:q&lt;/td>
+&lt;td>Quit&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3&lt;/td>
+&lt;td>:q!&lt;/td>
+&lt;td>Quit without saving&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>4&lt;/td>
+&lt;td>:wq&lt;/td>
+&lt;td>Quit with saving&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>5&lt;/td>
+&lt;td>k&lt;/td>
+&lt;td>Navigates up&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>6&lt;/td>
+&lt;td>j&lt;/td>
+&lt;td>Navigates down&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>7&lt;/td>
+&lt;td>h&lt;/td>
+&lt;td>Navigates left&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>8&lt;/td>
+&lt;td>l&lt;/td>
+&lt;td>Navigates right&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>9&lt;/td>
+&lt;td>i&lt;/td>
+&lt;td>Enter insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10&lt;/td>
+&lt;td>esc or ctrl +[&lt;/td>
+&lt;td>Enter normal mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>11&lt;/td>
+&lt;td>gg&lt;/td>
+&lt;td>Navigates to the top&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12&lt;/td>
+&lt;td>G&lt;/td>
+&lt;td>Navigates to bottom&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>13&lt;/td>
+&lt;td>H&lt;/td>
+&lt;td>High: takes you to the top of your code&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>14&lt;/td>
+&lt;td>M&lt;/td>
+&lt;td>Middle: takes you to the middle of your code&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>15&lt;/td>
+&lt;td>L&lt;/td>
+&lt;td>Low: takes you to the bottom of your code&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>16&lt;/td>
+&lt;td>nG&lt;/td>
+&lt;td>Navigates to n-th line (example - 3G navigates to 3rd line)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>17&lt;/td>
+&lt;td>{&lt;/td>
+&lt;td>Navigates one code block up&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>18&lt;/td>
+&lt;td>}&lt;/td>
+&lt;td>Navigates one code block down&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>19&lt;/td>
+&lt;td>nk&lt;/td>
+&lt;td>N lines up&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>20&lt;/td>
+&lt;td>nj&lt;/td>
+&lt;td>N lines down&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>21&lt;/td>
+&lt;td>nh&lt;/td>
+&lt;td>N lines left&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>22&lt;/td>
+&lt;td>nl&lt;/td>
+&lt;td>n lines right&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>23&lt;/td>
+&lt;td>u&lt;/td>
+&lt;td>Undo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>24&lt;/td>
+&lt;td>ctrl + r&lt;/td>
+&lt;td>Redo&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>25&lt;/td>
+&lt;td>. (period)&lt;/td>
+&lt;td>Do it again&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>26&lt;/td>
+&lt;td>yy&lt;/td>
+&lt;td>Copy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>27&lt;/td>
+&lt;td>P&lt;/td>
+&lt;td>Paste above&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>28&lt;/td>
+&lt;td>p&lt;/td>
+&lt;td>Paste below&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>29&lt;/td>
+&lt;td>v&lt;/td>
+&lt;td>Switches to visual mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>30&lt;/td>
+&lt;td>o&lt;/td>
+&lt;td>Adds new line below and enters insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>31&lt;/td>
+&lt;td>O&lt;/td>
+&lt;td>Adds new line up and puts you inside insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>32&lt;/td>
+&lt;td>w&lt;/td>
+&lt;td>Navigate to next word&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>33&lt;/td>
+&lt;td>b&lt;/td>
+&lt;td>Navigate to previous word&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>34&lt;/td>
+&lt;td>:n&lt;/td>
+&lt;td>Takes you to the n-th line&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>35&lt;/td>
+&lt;td>0 (zero)&lt;/td>
+&lt;td>Navigates to the beginning of line&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>36&lt;/td>
+&lt;td>^ or 0w&lt;/td>
+&lt;td>Navigates to the beginning of the first word in the line&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>37&lt;/td>
+&lt;td>W&lt;/td>
+&lt;td>Navigates to next word (ignores punctuation)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>38&lt;/td>
+&lt;td>B&lt;/td>
+&lt;td>Navigates to previous word (ignores punctuation)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>39&lt;/td>
+&lt;td>t&lt;/td>
+&lt;td>Navigates to the specified character and put the cursor one before the specified character (example: t!)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>40&lt;/td>
+&lt;td>f&lt;/td>
+&lt;td>to the specified character and put the cursor on the specified character (example: f!)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>41&lt;/td>
+&lt;td>%&lt;/td>
+&lt;td>Navigates to the next same character&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>42&lt;/td>
+&lt;td>cw&lt;/td>
+&lt;td>Changes next word&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>43&lt;/td>
+&lt;td>dw&lt;/td>
+&lt;td>Deletes next word&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>44&lt;/td>
+&lt;td>D&lt;/td>
+&lt;td>Deletes rest of the line (after coursor)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>45&lt;/td>
+&lt;td>C&lt;/td>
+&lt;td>Deletes rest of the line (after coursor) and enters insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>46&lt;/td>
+&lt;td>ct&lt;/td>
+&lt;td>Then press the letter that you want to change up to, will delete till that letter and enter insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>47&lt;/td>
+&lt;td>dt&lt;/td>
+&lt;td>Then press the letter that you want to change up to, will delete till that letter&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>48&lt;/td>
+&lt;td>*&lt;/td>
+&lt;td>Searches for current word&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>49&lt;/td>
+&lt;td>;&lt;/td>
+&lt;td>Goes to next instance&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>50&lt;/td>
+&lt;td>a&lt;/td>
+&lt;td>Takes you to the next character and put you into insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>51&lt;/td>
+&lt;td>A&lt;/td>
+&lt;td>Navigates to the end of the line and enters insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>52&lt;/td>
+&lt;td>I&lt;/td>
+&lt;td>Takes you to at the beginning of the line and puts you into insert mode&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>53&lt;/td>
+&lt;td>~&lt;/td>
+&lt;td>Swaps the letter (upper to lower case or vice versa)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>54&lt;/td>
+&lt;td>/&lt;/td>
+&lt;td>Searches particular word or character, press &amp;ldquo;Enter&amp;rdquo; to find. (Then you can use n to navigate next occurrence or N to the previous)&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>55&lt;/td>
+&lt;td>:num&lt;/td>
+&lt;td>Navigates to specified line. Example: :55 will take you 55th line&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yalchin403.github.io/blog/posts/basic-vim-cheat-sheet/featured.png"/></item></channel></rss>
