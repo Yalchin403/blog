@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yalchin Mammadli</copyright>
-    <lastBuildDate>Fri, 16 May 2025 21:43:57 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Aug 2025 13:36:21 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Decentralized Storage</title>
+      <link>//localhost:1313/tags/decentralized-storage/</link>
+      <pubDate>Tue, 19 Aug 2025 13:36:21 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/decentralized-storage/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ipfs</title>
+      <link>//localhost:1313/tags/ipfs/</link>
+      <pubDate>Tue, 19 Aug 2025 13:36:21 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/ipfs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Web3</title>
+      <link>//localhost:1313/tags/web3/</link>
+      <pubDate>Tue, 19 Aug 2025 13:36:21 +0200</pubDate>
+      
+      <guid>//localhost:1313/tags/web3/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Algorithms</title>
