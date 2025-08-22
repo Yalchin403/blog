@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Algorithms on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/tags/algorithms/</link><description>Recent content in Algorithms on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Fri, 16 May 2025 21:43:57 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/tags/algorithms/index.xml" rel="self" type="application/rss+xml"/><item><title>Sorting Algorithms and Binary Search in Python</title><link>https://yalchin403.github.io/blog/posts/sorting-algorithms-and-binary-search-in-python/</link><pubDate>Fri, 16 May 2025 21:43:57 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/sorting-algorithms-and-binary-search-in-python/</guid><description>&lt;h2 class="relative group">&lt;strong>Selection Sort&lt;/strong>
 &lt;div id="selection-sort" class="anchor">&lt;/div>
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#selection-sort" aria-label="Anchor">#&lt;/a>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#selection-sort" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
 &lt;p>Selection sort is about selecting the minimum value in an unsorted array and moving it towards the front by comparing. Here is an example code snippet to implement binary search in Python:&lt;/p>
@@ -25,9 +24,8 @@ style="text-decoration-line: none !important;" href="#selection-sort" aria-label
 &lt;h3 class="relative group">&lt;strong>Buble Sort&lt;/strong>
 &lt;div id="buble-sort" class="anchor">&lt;/div>
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#buble-sort" aria-label="Anchor">#&lt;/a>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#buble-sort" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h3>
 &lt;p>The bubble sort algorithm is applied by going through an array of data a number of times and at the same time comparing two adjacent numbers at a time in order to reorder them if there are out of order. Here is an example snippet written in Python:&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yalchin403.github.io/blog/posts/sorting-algorithms-and-binary-search-in-python/featured.png"/></item><item><title>Map Sort Filter Functions in Python</title><link>https://yalchin403.github.io/blog/posts/map-sort-filter-functions-in-python/</link><pubDate>Fri, 16 May 2025 21:28:34 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/map-sort-filter-functions-in-python/</guid><description>&lt;p>This tutorial will help you to see real example of using map, sort, and filter functions along with lambda functions in Python.&lt;/p>

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/tags/architecture/</link><description>Recent content in Architecture on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Fri, 16 May 2025 21:22:57 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/tags/architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Implementing Database Logs or History</title><link>https://yalchin403.github.io/blog/posts/implementing-database-logs-or-history/</link><pubDate>Fri, 16 May 2025 21:22:57 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/implementing-database-logs-or-history/</guid><description>&lt;h2 class="relative group">Introduction
 &lt;div id="introduction" class="anchor">&lt;/div>
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#&lt;/a>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#introduction" aria-label="Anchor">#&lt;/a>
 &lt;/span>
 &lt;/h2>
 &lt;p>In the realm of database management, maintaining an accurate record of changes made to the database structure is paramount. This is where the concept of a database changelog comes into play. A changelog, also known as a record history or audit trail, serves as a chronological log of modifications made to the database schema or data. It plays a crucial role in ensuring data integrity, transparency, and accountability within an organization&amp;rsquo;s data management processes.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yalchin403.github.io/blog/posts/implementing-database-logs-or-history/featured.png"/></item></channel></rss>
