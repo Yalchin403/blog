@@ -1,27 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nginx on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/tags/nginx/</link><description>Recent content in Nginx on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Tue, 13 May 2025 00:53:10 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p>In this tutorial, we will be deploying a simple URL shortener API built-in express framework of NodeJs. It is pretty simple, uses MongoDB as its database, and you can find its source code &lt;a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nginx on Tech and Lifestyle Blog</title><link>https://yalchin403.github.io/blog/tags/nginx/</link><description>Recent content in Nginx on Tech and Lifestyle Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>© 2025 Yalchin Mammadli</copyright><lastBuildDate>Tue, 13 May 2025 00:53:10 +0200</lastBuildDate><atom:link href="https://yalchin403.github.io/blog/tags/nginx/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Deploy Nodejs App</title><link>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</link><pubDate>Tue, 13 May 2025 00:53:10 +0200</pubDate><guid>https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/</guid><description>&lt;p&gt;In this tutorial, we will be deploying a simple URL shortener API built-in express framework of NodeJs. It is pretty simple, uses MongoDB as its database, and you can find its source code &lt;a
 href="https://github.com/Yalchin403/express-urlshortener-api"
 target="_blank"
->here&lt;/a>.&lt;/p>
-&lt;p>As a VPS, I use a Linode ubuntu server, and I assume that you have at least some basic knowledge when it comes to Linux.&lt;/p>
-&lt;h3 class="relative group">Install Node and NPM
-&lt;div id="install-node-and-npm" class="anchor">&lt;/div>
+&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As a VPS, I use a Linode ubuntu server, and I assume that you have at least some basic knowledge when it comes to Linux.&lt;/p&gt;
+&lt;h3 class="relative group"&gt;Install Node and NPM
+&lt;div id="install-node-and-npm" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#install-node-and-npm" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">curl -sL https://deb.nodesource.com/setup_12.x &lt;span class="p">|&lt;/span> sudo -E bash -
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt install nodejs
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># verify that bash is installed&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">node --version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h3 class="relative group">Clone your Repo
-&lt;div id="clone-your-repo" class="anchor">&lt;/div>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#install-node-and-npm" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-sh" data-lang="sh"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;curl -sL https://deb.nodesource.com/setup_12.x &lt;span class="p"&gt;|&lt;/span&gt; sudo -E bash -
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt install nodejs
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# verify that bash is installed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;node --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 class="relative group"&gt;Clone your Repo
+&lt;div id="clone-your-repo" class="anchor"&gt;&lt;/div&gt;
 &lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#clone-your-repo" aria-label="Anchor">#&lt;/a>
-&lt;/span>
-&lt;/h3>
-&lt;p>&lt;code>git clone [link to your github repo]&lt;/code>&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/featured.png"/></item></channel></rss>
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100 select-none"&gt;
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700 !no-underline" href="#clone-your-repo" aria-label="Anchor"&gt;#&lt;/a&gt;
+&lt;/span&gt;
+&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;git clone [link to your github repo]&lt;/code&gt;&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://yalchin403.github.io/blog/posts/how-to-deploy-nodejs-app/featured.png"/></item></channel></rss>
