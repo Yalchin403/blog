@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yalchin Mammadli</copyright>
-    <lastBuildDate>Fri, 22 Aug 2025 22:46:44 +0200</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Aug 2025 21:08:48 +0200</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Step by Step Guide to Autogenerate Python Documentation With Sphinx</title>
+      <link>//localhost:1313/posts/step-by-step-guide-to-autogenerate-python-documentation-with-sphinx/</link>
+      <pubDate>Thu, 28 Aug 2025 21:08:48 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/step-by-step-guide-to-autogenerate-python-documentation-with-sphinx/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/step-by-step-guide-to-autogenerate-python-documentation-with-sphinx/featured.png" />
+    </item>
     
     <item>
       <title>Basic Vim Cheat Sheet</title>

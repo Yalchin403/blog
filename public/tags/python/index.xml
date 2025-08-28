@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 Yalchin Mammadli</copyright>
-    <lastBuildDate>Fri, 16 May 2025 21:43:57 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Aug 2025 22:44:47 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What Is Virtual Environment in Python and How to Set Up Virtual Environment</title>
+      <link>//localhost:1313/posts/what-is-virtual-environment-in-python-and-how-to-set-up-virtual-environment/</link>
+      <pubDate>Fri, 22 Aug 2025 22:44:47 +0200</pubDate>
+      
+      <guid>//localhost:1313/posts/what-is-virtual-environment-in-python-and-how-to-set-up-virtual-environment/</guid>
+      <description>&lt;p&gt;A bit of theory first&amp;hellip;&lt;/p&gt;
+&lt;p&gt;If you are using Python, you will always need to use a virtual environment if you want to keep the packages you installed as organized and neat as possible. So basically virtual environment will make it possible to have different versions of the same library or framework for each project. Let&amp;rsquo;s say you are a great Django developer (I believe you are :D), and for god knows whatever reason you want to have &lt;em&gt;Django version 3.0.0&lt;/em&gt; for one project and &lt;em&gt;version 3.2&lt;/em&gt; for another. So in this case, what you can do is you can create a separate virtual environment for each project and use different versions for packages. Another advantage of using a virtual environment for me is to have the ability to create a &lt;em&gt;requirements.txt&lt;/em&gt; file that can be used in the project setup. Well, you can tell me that you can create it without a virtual environment but if you do so, &lt;em&gt;requirements.txt&lt;/em&gt; file will contain all of the packages that have been installed globally on your PC. You can see the content by executing:&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="//localhost:1313/posts/what-is-virtual-environment-in-python-and-how-to-set-up-virtual-environment/featured.png" />
+    </item>
     
     <item>
       <title>Sorting Algorithms and Binary Search in Python</title>
